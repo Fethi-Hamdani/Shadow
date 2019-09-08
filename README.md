@@ -2,7 +2,7 @@
 
 A new Flutter package project.
 
-<img src="https://github.com/Fethi1/Shadow/blob/master/Screenshot from 2019-09-08 14-58-07.png" width="850" height="390">
+<img src="https://github.com/Fethi1/Shadow/blob/master/Screenshot from 2019-09-08 14-58-07.png" width="900" height="500">
 
 ## Getting Started
 
