@@ -2,11 +2,13 @@
 
 the easiest way toAdd Shadow to any widget.
 
+[install](https://pub.dev/packages/shadow),
 
+[Full Code of app below ](https://github.com/Fethi1/Shadow),
 
 <img src="https://github.com/Fethi1/Shadow/blob/master/Screenshot from 2019-09-08 14-58-07.png" width="900" height="500">
 
-[Full code](https://github.com/Fethi1/Shadow/blob/master),
+
 ## Getting Started
 
 This project is a starting point for a Dart
