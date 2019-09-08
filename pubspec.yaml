@@ -1,8 +1,8 @@
 name: shadow
-description: A new Flutter package project.
+description: Add Shadow to any type of widget.
 version: 0.0.1
-author:
-homepage:
+author: Fethi Hamdani<Fethinvrfail@gmail.com>
+homepage: https://github.com/Fethi1/Shadow.git
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
