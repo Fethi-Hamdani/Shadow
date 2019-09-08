@@ -1,7 +1,7 @@
 # shadow
 
 add Shadow to any widget.
-
+[install here](https://pub.dev/packages/shadow),
 <img src="https://github.com/Fethi1/Shadow/blob/master/Screenshot from 2019-09-08 14-58-07.png" width="900" height="500">
 
 ## Getting Started
