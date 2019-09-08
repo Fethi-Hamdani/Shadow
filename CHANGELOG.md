@@ -1,3 +1,7 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - 2019 - 9 - 8 
 
-* TODO: Describe initial release.
+First launch.
+
+## [0.0.2] - 2019 - 9 - 8 
+
+Fill Readme and set everything about the package.

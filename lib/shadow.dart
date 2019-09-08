@@ -1,7 +1,7 @@
 library shadow;
 
 import 'package:flutter/material.dart';
-import 'package:meta/meta.dart';
+
 
 class Shadow extends StatelessWidget{
 
