@@ -7,7 +7,7 @@ the easiest way to add Shadow to any widget.
 
 [Full Code of app below ](https://github.com/Fethi1/Shadow),
 
-<img src="https://raw.githubusercontent.com/Fethi1/Shadow/Screenshot from 2019-09-08 14-58-07.png" width="900" height="500">
+<img src="https://github.com/Fethi1/Shadow/Screenshot from 2019-09-08 14-58-07.png" width="900" height="500">
 
 
 ## Getting Started
