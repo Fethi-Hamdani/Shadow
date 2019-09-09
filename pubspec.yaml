@@ -1,6 +1,6 @@
 name: shadow
-description: the easiest way to Add Shadow to any type of widget with some basic customization, you can set the placement of the shadow as well as the shadow opacity and you can control the size of the shade so it fit any situation.
-version: 0.0.2
+description: the easiest way to Add Shadow to any type of widget with some basic customization.
+version: 0.1.0
 author: Fethi Hamdani <Fethinvrfail@gmail.com>
 homepage: https://github.com/Fethi1/Shadow.git
 
