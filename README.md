@@ -1,4 +1,4 @@
-# shadow
+# Fethi
 
 the easiest way to add Shadow to any widget.
 
