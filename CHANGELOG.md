@@ -6,7 +6,10 @@ First launch.
 
 Fill Readme and set everything about the package.
 
-## [0.0.2] - 2019 - 9 - 9 
+## [0.0.3] - 2019 - 9 - 9 
 
 Fix intial setup.
 
+## [0.0.3] - 2019 - 9 - 12 
+
+Add images to README and add some examples to better explain the functionalities.
