@@ -11,17 +11,20 @@ the easiest way to add Shadow to any widget.
 
 
 
-'      Shadow(
+```      
+     Shadow(
           child: 
               Container(
                  color:Colors.redAccent ,
                  height: 50,
                  width: 50,
                         ),
-            ),'
+            ),
+```
+## Example
 
-
-'      Shadow(
+```     
+     Shadow(
         offset: Offset(-10, -10),
           child: 
               Stack(
@@ -43,7 +46,8 @@ the easiest way to add Shadow to any widget.
                             ),
                           ],
               ),
-            ),'
+            ),
+```            
 
 
 ## Getting Started
