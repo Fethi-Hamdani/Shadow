@@ -1,4 +1,4 @@
-# Fethi
+# shadow
 
 the easiest way to add Shadow to any widget.
 
@@ -6,7 +6,6 @@ the easiest way to add Shadow to any widget.
 [install](https://pub.dev/packages/shadow),
 
 [Full Code of app below ](https://github.com/Fethi1/Shadow),
-
 
 ![](https://github.com/Fethi1/Shadow/blob/master/images/screenshot.png)
 
