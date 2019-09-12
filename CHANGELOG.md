@@ -10,6 +10,6 @@ Fill Readme and set everything about the package.
 
 Fix intial setup.
 
-## [0.0.3] - 2019 - 9 - 12 
+## [0.1.5] - 2019 - 9 - 12 
 
 Add images to README and add some examples to better explain the functionalities.
