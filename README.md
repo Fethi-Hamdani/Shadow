@@ -7,7 +7,25 @@ the easiest way to add Shadow to any widget.
 
 [Full Code of app below ](https://github.com/Fethi1/Shadow),
 
+
+# proprities
+
+###  Offset(dx,dy) :
+change the position of the shadow according to the widget position. 
+
+###  Opacity(double) :
+change the visibility of the shade from 1 to 0, 1 as fully visible and 0 not visible at all.
+
+###  Scale(double) :
+this propritie is meant to change the size of the shadow (Shadow size onyl not the widget itself).
+
+
 ![](https://github.com/Fethi1/Shadow/blob/master/images/screenshot.png)
+
+
+# Examples
+
+
 
 
 
@@ -21,7 +39,7 @@ the easiest way to add Shadow to any widget.
                         ),
             ),
 ```
-## Example
+
 
 ```     
      Shadow(
