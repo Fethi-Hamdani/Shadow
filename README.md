@@ -1,6 +1,6 @@
 # shadow
 
-the easiest way to add Shadow to any widget.
+The easiest way to Apply Shadow to any widget, It aint much but it is an honest work
 
 
 [install](https://pub.dev/packages/shadow),
