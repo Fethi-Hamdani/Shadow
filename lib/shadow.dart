@@ -25,34 +25,20 @@ class Shadow extends StatelessWidget {
     this.offset = const Offset(5, 5),
     this.blur = const Blur(1, 1),
   }) : assert(opacity >= 0 && opacity <= 1);
+
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: <Widget>[
-        Opacity(
-          opacity: opacity,
-          child: Transform.translate(
-            offset: offset,
-            child: Transform.scale(
-              scale: scale,
-              child: Expanded(
-                child: Stack(
-                  children: <Widget>[
-                    //child,
-                    Center(
-                      child: ClipRect(
-                        // <-- clips to the 200x200 [Container] below
-                        child: BackdropFilter(
-                          filter: ui.ImageFilter.blur(
-                            sigmaX: 5.0,
-                            sigmaY: 5.0,
-                          ),
-                          child: child,
-                        ),
-                      ),
-                    )
-                  ],
-                ),
+        GestureDetector(
+          onTap: null,
+          child: Opacity(
+            opacity: opacity,
+            child: Transform.translate(
+              offset: offset,
+              child: Transform.scale(
+                scale: scale,
+                child: child,
               ),
             ),
           ),
