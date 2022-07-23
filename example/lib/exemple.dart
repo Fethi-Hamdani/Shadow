@@ -11,7 +11,7 @@ class _MyHomePageState extends State<MyHomePage> {
     fontWeight: FontWeight.w400,
     fontSize: 12,
   );
-  Widget main = Icon(
+  Widget main = const Icon(
     Icons.headset_mic,
     size: 40,
     color: Colors.blueAccent,
@@ -22,41 +22,39 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Shadow Package'),
+        title: const Text('Shadow Package'),
       ),
-      body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+      body: Column(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: <Widget>[
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-                Text(
-                  "Offset( 0 , 5 )",
-                  //style: style,
+            const Text(
+              "Offset( 0 , 5 )",
+              //style: style,
+            ),
+            const Text("Offset( 0 , -5 )"),
+            const Text("Offset( 5 , 5 )"),
+            const Text("Offset( -5 , -5 )"),
+          ],
+        ),
+        const SizedBox(
+          height: 20,
+        ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: <Widget>[
+            Shadow(
+                child: const Icon(
+                  Icons.access_alarm_sharp,
+                  size: 105,
                 ),
-                Text("Offset( 0 , -5 )"),
-                Text("Offset( 5 , 5 )"),
-                Text("Offset( -5 , -5 )"),
-              ],
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-                Shadow(
-                    child: Icon(
-                      Icons.access_alarm_sharp,
-                      size: 105,
-                    ),
-                    options: const ShadowOptions(
-                      opacity: 0.6,
-                      blur: ShadowBlur(15, 15),
-                    )),
-              ],
-            ),
-          ]),
+                options: const ShadowOptions(
+                  opacity: 0.6,
+                  blur: ShadowBlur(15, 15),
+                )),
+          ],
+        ),
+      ]),
     );
   }
 }

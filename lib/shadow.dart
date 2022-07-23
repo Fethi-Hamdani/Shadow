@@ -8,9 +8,9 @@ import 'package:shadow/option.dart';
 export 'option.dart';
 
 class Shadow extends StatelessWidget {
-  Widget child;
-  ShadowOptions options;
-  Shadow({
+  final Widget child;
+  final ShadowOptions options;
+  const Shadow({
     this.options = const ShadowOptions(),
     required this.child,
   });
