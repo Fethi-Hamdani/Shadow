@@ -24,8 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
         title: Text('Shadow Package'),
       ),
-      body: Center(
-        child: Column(
+      body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Row(
@@ -40,92 +39,24 @@ class _MyHomePageState extends State<MyHomePage> {
                 Text("Offset( -5 , -5 )"),
               ],
             ),
-            SizedBox(
+            const SizedBox(
               height: 20,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: <Widget>[
                 Shadow(
-                  offset: Offset(0, 5),
-                  blur: Blur(100, 100),
-                  child: main,
-                ),
-                Shadow(
-                  offset: Offset(0, -5),
-                  child: main,
-                ),
-                Shadow(offset: Offset(5, 5), child: main),
-                Shadow(offset: Offset(-5, -5), child: main),
+                    child: Icon(
+                      Icons.access_alarm_sharp,
+                      size: 105,
+                    ),
+                    options: const ShadowOptions(
+                      opacity: 0.6,
+                      blur: ShadowBlur(15, 15),
+                    )),
               ],
             ),
-            SizedBox(
-              height: 50,
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-                Text("Opacity : 0.7"),
-                Text("Opacity : 0.5"),
-                Text("Opacity : 0.3"),
-                Text("Opacity : 0.2"),
-              ],
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-                Shadow(
-                  opacity: 0.7,
-                  child: main,
-                ),
-                Shadow(
-                  opacity: 0.5,
-                  child: main,
-                ),
-                Shadow(opacity: 0.3, child: main),
-                Shadow(opacity: 0.2, child: main),
-              ],
-            ),
-            SizedBox(
-              height: 50,
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-                Text("Scale : 0.7"),
-                Text("Scale : 0.9"),
-                Text("Scale : 1"),
-                Text("Scale : 1.2"),
-              ],
-            ),
-            SizedBox(
-              height: 20,
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-                Shadow(
-                  scale: 0.7,
-                  child: main,
-                ),
-                Shadow(
-                  scale: 0.9,
-                  child: main,
-                ),
-                Shadow(scale: 1, child: main),
-                Shadow(
-                  scale: 1.2,
-                  child: main,
-                  opacity: 0.4,
-                ),
-              ],
-            ),
-          ],
-        ),
-      ),
+          ]),
     );
   }
 }

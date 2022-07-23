@@ -3,7 +3,7 @@
 The easiest way to Apply Shadow to any widget, It aint much but it is an honest work
 
 
-[install](https://pub.dev/packages/shadow),
+[install](https://pub.dev/packages/shadow/install),
 
 [Full Code of apps below ](https://github.com/Fethi1/Shadow),
 
