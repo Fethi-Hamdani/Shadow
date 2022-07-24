@@ -7,7 +7,9 @@ import 'package:shadow/option.dart';
 export 'option.dart';
 
 class Shadow extends StatelessWidget {
+  // the child widget to be shadowed
   final Widget child;
+  // the options of the shadow applied
   final ShadowOptions options;
   const Shadow({
     this.options = const ShadowOptions(),
@@ -31,6 +33,7 @@ class Shadow extends StatelessWidget {
             ),
           ),
         ),
+        // the child widget is always on top of the shadow
         child,
       ],
     );

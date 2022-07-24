@@ -1,5 +1,7 @@
-## [1.0.0] 
+## [1.5.0] 
+    *Fixed blur issues.
 
+## [1.0.0] 
     *Migrating to null safety.
 
 ## [0.1.5] 
