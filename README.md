@@ -1,12 +1,6 @@
 # shadow
 [![Pub](https://img.shields.io/pub/v/dio.svg?style=flat-square)](https://pub.dev/packages/shadow)
-<a href="https://www.buymeacoffee.com/fethi.hamdani" target="_blank"><img src="https://i.imgur.com/aV6DDA7.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" > </a>
 The easiest way to Apply Shadow to any widget, It aint much but it is an honest work
-
-
-[install](https://pub.dev/packages/shadow/install),
-
-[Full Code of apps below ](https://github.com/Fethi1/Shadow),
 
 ## Get started
 
@@ -14,7 +8,7 @@ The easiest way to Apply Shadow to any widget, It aint much but it is an honest 
 
 ```yaml
 dependencies:
-  shadow: ^4.0.6
+  shadow: ^1.5.0
 ```
 
 ### Install it
@@ -162,14 +156,4 @@ this propritie is meant to change the size of the shadow (Shadow size onyl not t
 
 ![](https://github.com/Fethi1/Shadow/blob/master/images/screenshot3.png)
 
-
-## Getting Started
-
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+<a href="https://www.buymeacoffee.com/fethi.hamdani" target="_blank"><img src="https://i.imgur.com/aV6DDA7.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" > </a>
