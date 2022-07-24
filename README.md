@@ -1,5 +1,5 @@
 # shadow
-[![Pub](https://img.shields.io/pub/v/dio.svg?style=flat-square)](https://pub.dev/packages/shadow)
+[![Pub](https://img.shields.io/pub/v/shadow.svg?style=flat-square)](https://pub.dev/packages/shadow)
 The easiest way to Apply Shadow to any widget, It aint much but it is an honest work
 
 ## Get started
