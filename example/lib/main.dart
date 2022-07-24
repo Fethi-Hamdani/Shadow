@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'exemple.dart';
+import 'package:shadow_example/example.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: const ShadowExample(),
     );
   }
 }

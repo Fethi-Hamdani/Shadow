@@ -1,5 +1,6 @@
 # shadow
-
+[![Pub](https://img.shields.io/pub/v/dio.svg?style=flat-square)](https://pub.dev/packages/shadow)
+<a href="https://www.buymeacoffee.com/fethi.hamdani" target="_blank"><img src="https://i.imgur.com/aV6DDA7.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" > </a>
 The easiest way to Apply Shadow to any widget, It aint much but it is an honest work
 
 
@@ -7,8 +8,49 @@ The easiest way to Apply Shadow to any widget, It aint much but it is an honest 
 
 [Full Code of apps below ](https://github.com/Fethi1/Shadow),
 
+## Get started
 
-# proprities
+### Add dependency
+
+```yaml
+dependencies:
+  shadow: ^4.0.6
+```
+
+### Install it
+
+You can install packages from the command line:
+
+with `pub`:
+
+```
+$ pub get
+```
+
+with `Flutter`:
+
+```
+$ flutter pub get
+```
+
+### Import it
+
+Now in your `Dart` code, you can use:
+
+```dart
+import 'package:shadow/shadow.dart';
+```
+
+### Super simple to use
+
+```dart
+  Shadow(
+    child: FlutterLogo(size: 200),
+        )
+```
+
+
+## Proprities
 
 ###  Offset(dx,dy) :
 change the position of the shadow according to the widget position. 
@@ -28,8 +70,8 @@ this propritie is meant to change the size of the shadow (Shadow size onyl not t
 ## Containers:
 
 
-```      
-     Shadow(
+```dart 
+  Shadow(
           child: 
               Container(
                  color:Colors.redAccent ,
@@ -44,9 +86,11 @@ this propritie is meant to change the size of the shadow (Shadow size onyl not t
 
 ## Stacks:
 
-```     
+```dart     
      Shadow(
-        offset: Offset(-10, -10),
+       options: ShadowOptions(
+            offset: Offset(-10, -10),
+          ),
           child: 
               Stack(
                     children: <Widget>[
@@ -73,9 +117,11 @@ this propritie is meant to change the size of the shadow (Shadow size onyl not t
 ![](https://github.com/Fethi1/Shadow/blob/master/images/screenshot2.png)
 
 ## images(assets):
-```
+```dart
       Shadow(
-        offset: Offset(-10, -0),
+        options: ShadowOptions(
+            offset: Offset(-10, 0),
+          ),
           child: 
              Container(
                margin: EdgeInsets.only(left: 100),
