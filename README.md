@@ -156,4 +156,4 @@ this propritie is meant to change the size of the shadow (Shadow size onyl not t
 
 ![](https://github.com/Fethi1/Shadow/blob/master/images/screenshot3.png)
 
-<a href="https://www.buymeacoffee.com/fethi.hamdani" target="_blank"><img src="https://i.imgur.com/aV6DDA7.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" > </a>
+<a href="https://www.buymeacoffee.com/fethi.hamdani" target="_blank"><img src="https://influencermarketinghub.com/wp-content/uploads/2021/04/BuyMeACoffee.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" > </a>
